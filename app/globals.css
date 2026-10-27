@@ -33,3 +33,4 @@
 .checkout-layout .checkout-card{margin-top:30px}.checkout-layout .order-rail-line-total{margin-bottom:8px}.rail-drop-tag[aria-disabled=true]{opacity:.65}.rail-actions.is-dragging .rail-drop-tag[aria-disabled=true]{opacity:1}.rail-drop-tag:focus-visible{outline:2px solid #66775d;outline-offset:3px}
 
 .order-rail-garment.is-selected .order-rail-qty{background:#53644b;color:#fff}
+.confirmation-details{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,3fr);gap:32px;margin-top:40px}.confirmation-customer{grid-column:1;grid-row:1}.confirmation-summary{grid-column:2;grid-row:1}@media(max-width:700px){.confirmation-details{grid-template-columns:minmax(0,1fr);gap:24px}.confirmation-customer{grid-column:1;grid-row:1}.confirmation-summary{grid-column:1;grid-row:2}}@media print{.confirmation-details{grid-template-columns:minmax(0,7fr) minmax(0,3fr);gap:20px}.confirmation-customer{grid-column:1;grid-row:1}.confirmation-summary{grid-column:2;grid-row:1}}
